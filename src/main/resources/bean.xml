@@ -14,4 +14,12 @@
             <ref bean="actor"></ref>
         </property>
     </bean>
+    <bean id="actor1" class="com.stackroute.domain.Actor">
+        <constructor-arg value="Akshay Kumar"/>
+        <constructor-arg value="Male"/>
+        <constructor-arg value="51"/>
+    </bean>
+    <bean id="movie1" class="com.stackroute.domain.Movie">
+        <constructor-arg  ref="actor"/>
+    </bean>
 </beans>
