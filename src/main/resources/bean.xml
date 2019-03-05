@@ -14,4 +14,6 @@
             <ref bean="actor"></ref>
         </property>
     </bean>
+    <bean id="beanLifecycleDemoBean" class="com.stackroute.demo.BeanLifecycleDemoBean"/>
+    <bean id="beanPostProcessorDemoBean" class="com.stackroute.demo.BeanPostProcessorDemoBean"/>
 </beans>
